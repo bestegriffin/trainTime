@@ -1,0 +1,74 @@
+.panel>.panel-heading {
+        color: #fff;
+        background-color: #26a69a;
+        border-color: #ddd;
+        font-size:1rem;
+        }
+        label {
+        font-size: .8rem;
+        color: #000;
+        }
+        
+        .jumbotron {
+        background:url(../images/trainStation.jpg)no-repeat center;
+       background-size: cover;
+       background-blend-mode: overlay;
+        text-align:center;
+        background-color:#B16555;
+        color:#fff;
+        border-color: #ddd;
+        }
+
+h1, h2,h3,h4,h5,h6{
+        color:#fff;
+        font-size:180%;
+}
+
+.orange {
+        background-color:#B16555;
+}
+
+.small-img{
+max-width: 50px;
+max-height: 125px;
+
+}
+
+label{
+        padding:10px 0px;
+        font-size:1rem;
+}
+
+.btn-sm {
+        background-color: #17665F;
+}
+
+
+  /* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
